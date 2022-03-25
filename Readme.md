@@ -11,41 +11,46 @@
 
 ## How it will look like?
 
-![IMG_0926.HEIC](./images/IMG_0926.heic)
+![IMG_0926.HEIC](./images/design.png)
 
 ## What are the task involved?
 
 - Our Development Environment is setup
+
   - [ ] Remote Repo
   - [ ] Local Project Folder
   - [ ] Setup all extensions
-  - [ ] etc.
-- Breaking down the design into smaller component
+  - [ ] Breaking down the design into smaller component
+
   - **HTML**
+
     - [ ] Header (title)
     - [ ] Section for task
     - [ ] List for items
     - [ ] Delete button
     - [ ] Input
     - [ ] Add button
-    - [ ] Breakline
+    - [ ] Horizontal rule
     - [ ] Link Bootstrap CSS
     - [ ] Link Bootstrap JS
     - [ ] Link local style sheet
     - [ ] Link local scripts
+
   - **CSS - (Using Bootstrap)**
+
     - [ ] Container
     - [ ] Grid (Col x 1 and Row x 3)
     - [ ] Header class
     - [ ] Lists class
-    - [ ] Breakline
+    - [ ] Horizontal rule
     - [ ] Input class
     - [ ] Label class
     - [ ] Button classes
     - [ ] Colors
     - [ ] Typography
     - [ ] Apply proper layout
-  - JavaScript
+
+  - **JavaScript**
     - [ ] Add functionality
     - [ ] Delete functionality
 
