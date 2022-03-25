@@ -1,0 +1,26 @@
+.app-container {
+  max-width: 350px;
+  outline: 2px solid rgba(13, 109, 253, 0.63);
+  margin-top: 2rem;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.app-footer {
+  margin-top: 1rem;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.add-task-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
