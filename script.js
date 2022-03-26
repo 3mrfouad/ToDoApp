@@ -57,6 +57,8 @@ const handleAddTask = (e, task) => {
   newTaskDeleteBtn.addEventListener('click', _deleteTask)
 
   if (!task) addTaskToStorage(newTask.value)
+
+  newTask.value = null
 }
 
 // [x] Add event to the add button
