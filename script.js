@@ -1,3 +1,9 @@
+const toDos = [
+  { id: 1, text: 'Buy Groceries' },
+  { id: 2, text: 'Drive to the maintenance' },
+  { id: 3, text: 'Study Nodejs' }
+]
+
 // select the element
 const newTask = document.querySelector('#new-task')
 const addTaskBtn = document.querySelector('#add-btn')
@@ -30,6 +36,11 @@ const removeTaskFromStorage = task => {
 }
 
 const handleAddTask = (e, task) => {
+  // don't add blank entry
+  if (!task && !newTask.value) {
+    alert('enter task details')
+    return
+  }
   // create new elements
   const newTaskLi = document.createElement('li')
   const newTaskSpan = document.createElement('span')
