@@ -59,3 +59,7 @@
 - [ ] Printing option
 - [ ] Saving history, so on refresher the user doesn’t lose the to-do
 - [ ] Add event for pressing enter to add task
+
+## To Use the App
+
+https://3mrfouad.github.io/ToDoApp/
